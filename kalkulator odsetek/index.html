@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<title>Kalkulator odsetek</title>
@@ -16,14 +15,18 @@
 			<option value="1">Rocznie</option>
 		</select>
 		<label for="lata">Ilość lat</label>
-		<input type="number" id="lata" value="1" min="1" name="lata"> <br>
+		<input type="number" id="lata" value="1" min="1" name="lata">
+		<br>
 		<label for="oprocentowanie">Oprocentowanie</label>
-		<input type="number" name="oprocentowanie" id="oprocentowanie" value="0" min="0" ><br>
+		<input type="number" name="oprocentowanie" id="oprocentowanie" value="0" min="0">
+		<br>
 		<label for="zaznacz">Uwzględnij podatek belki 19%</label>
-		<input type="checkbox" id="belka" name="belka"> <br>
+		<input type="checkbox" id="belka" name="belka">
+		<br>
 		<button onclick="oblicz(event)">Oblicz</button>
 		<p id="wynik"></p>
-	<script src="js/main.js"></script>
+	</form>
+		<script src="js/main.js"></script>
 </body>
 
 </html>
